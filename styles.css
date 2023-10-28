@@ -1,0 +1,117 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.raghad {
+  font-size: 40px;
+  color: #6a4482;
+}
+
+.icon-container {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 3px solid #333;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+section {
+  margin-bottom: 20px;
+  background-color: #ceced2;
+  text-align: center
+}
+
+.header {
+  text-align: center;
+  background-color: #ceced2;
+  margin-top: 1%;
+  padding: 40px 0;
+}
+
+.about {
+  border-top: 2px solid #ceced2;
+  border-bottom: 2px solid #ceced2;
+  padding: 30px 0;
+  text-align: center;
+
+}
+
+.education,
+.experience {
+  border-bottom: 1px solid #ceced2;
+  padding-bottom: 20px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact {
+  background-color: #ceced2;
+  text-align: center;
+  padding: 30px 0;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.about_description {
+  margin: 0 10%;
+}
+
+.projectline {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.inside_project {
+  display: flex;
+  flex-flow: row;
+}
+
+.project {
+  display: flex;
+  flex-flow: column;
+  margin-top: 4%;
+}
+
+.projectInfo {
+  margin-top: 2%;
+  text-align: justify center;
+  color: #000000;
+  margin-right: 7%;
+  justify-content: center;
+  margin-left: 7%;
+}
+
+.hcolor {
+  color: #6a4482;
+}
+
+@media only screen and (max-width: 992px) {
+
+  .inside_project {
+    display: flex;
+    flex-flow: column;
+
+  }
+}
+
+@media only screen and (max-width: 768px) {
+
+  .inside_project {
+    display: flex;
+    flex-flow: column;
+  }
+
+}
+
+@media only screen and (max-width: 576px) {
+  .icon-container {
+    width: 150px;
+    height: 150px;
+
+  }
+}
